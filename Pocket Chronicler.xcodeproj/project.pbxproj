@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		A3340365296D940700E9F212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3340364296D940700E9F212 /* AppDelegate.swift */; };
 		A3340367296D940700E9F212 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3340366296D940700E9F212 /* SceneDelegate.swift */; };
-		A3340369296D940700E9F212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3340368296D940700E9F212 /* ViewController.swift */; };
-		A334036C296D940700E9F212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A334036A296D940700E9F212 /* Main.storyboard */; };
 		A334036F296D940700E9F212 /* Pocket_Chronicler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A334036D296D940700E9F212 /* Pocket_Chronicler.xcdatamodeld */; };
 		A3340371296D940A00E9F212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3340370296D940A00E9F212 /* Assets.xcassets */; };
 		A3340374296D940A00E9F212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3340372296D940A00E9F212 /* LaunchScreen.storyboard */; };
 		A334037F296D940B00E9F212 /* Pocket_ChroniclerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334037E296D940B00E9F212 /* Pocket_ChroniclerTests.swift */; };
 		A3340389296D940B00E9F212 /* Pocket_ChroniclerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3340388296D940B00E9F212 /* Pocket_ChroniclerUITests.swift */; };
 		A334038B296D940B00E9F212 /* Pocket_ChroniclerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334038A296D940B00E9F212 /* Pocket_ChroniclerUITestsLaunchTests.swift */; };
+		A3340398296D951600E9F212 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3340397296D951600E9F212 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +39,6 @@
 		A3340361296D940700E9F212 /* Pocket Chronicler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Chronicler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3340364296D940700E9F212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3340366296D940700E9F212 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3340368296D940700E9F212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A334036B296D940700E9F212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A334036E296D940700E9F212 /* Pocket_Chronicler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pocket_Chronicler.xcdatamodel; sourceTree = "<group>"; };
 		A3340370296D940A00E9F212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3340373296D940A00E9F212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +48,7 @@
 		A3340384296D940B00E9F212 /* Pocket ChroniclerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket ChroniclerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3340388296D940B00E9F212 /* Pocket_ChroniclerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_ChroniclerUITests.swift; sourceTree = "<group>"; };
 		A334038A296D940B00E9F212 /* Pocket_ChroniclerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_ChroniclerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3340397296D951600E9F212 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +99,10 @@
 		A3340363296D940700E9F212 /* Pocket Chronicler */ = {
 			isa = PBXGroup;
 			children = (
-				A3340364296D940700E9F212 /* AppDelegate.swift */,
-				A3340366296D940700E9F212 /* SceneDelegate.swift */,
-				A3340368296D940700E9F212 /* ViewController.swift */,
-				A334036A296D940700E9F212 /* Main.storyboard */,
-				A3340370296D940A00E9F212 /* Assets.xcassets */,
-				A3340372296D940A00E9F212 /* LaunchScreen.storyboard */,
-				A3340375296D940A00E9F212 /* Info.plist */,
+				A3340399296D963400E9F212 /* Supporting Files */,
+				A334039C296D969100E9F212 /* Controllers */,
+				A334039A296D964E00E9F212 /* Resources */,
+				A334039B296D966400E9F212 /* StoryBoards */,
 				A334036D296D940700E9F212 /* Pocket_Chronicler.xcdatamodeld */,
 			);
 			path = "Pocket Chronicler";
@@ -128,6 +123,40 @@
 				A334038A296D940B00E9F212 /* Pocket_ChroniclerUITestsLaunchTests.swift */,
 			);
 			path = "Pocket ChroniclerUITests";
+			sourceTree = "<group>";
+		};
+		A3340399296D963400E9F212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3340364296D940700E9F212 /* AppDelegate.swift */,
+				A3340366296D940700E9F212 /* SceneDelegate.swift */,
+				A3340375296D940A00E9F212 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A334039A296D964E00E9F212 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3340370296D940A00E9F212 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A334039B296D966400E9F212 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A3340372296D940A00E9F212 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		A334039C296D969100E9F212 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3340397296D951600E9F212 /* MainViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +265,6 @@
 			files = (
 				A3340374296D940A00E9F212 /* LaunchScreen.storyboard in Resources */,
 				A3340371296D940A00E9F212 /* Assets.xcassets in Resources */,
-				A334036C296D940700E9F212 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A334036F296D940700E9F212 /* Pocket_Chronicler.xcdatamodeld in Sources */,
-				A3340369296D940700E9F212 /* ViewController.swift in Sources */,
 				A3340365296D940700E9F212 /* AppDelegate.swift in Sources */,
 				A3340367296D940700E9F212 /* SceneDelegate.swift in Sources */,
+				A3340398296D951600E9F212 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A334036A296D940700E9F212 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A334036B296D940700E9F212 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A3340372296D940A00E9F212 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,12 +463,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LBKPR9U7Q9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pocket Chronicler/Info.plist";
+				INFOPLIST_FILE = "Pocket Chronicler/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +476,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "priest.Pocket-Chronicler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,12 +494,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LBKPR9U7Q9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pocket Chronicler/Info.plist";
+				INFOPLIST_FILE = "Pocket Chronicler/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,9 +507,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "priest.Pocket-Chronicler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
